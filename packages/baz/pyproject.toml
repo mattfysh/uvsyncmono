@@ -1,0 +1,10 @@
+[project]
+name = "baz"
+version = "0.1.0"
+dependencies = [
+  "dpath>=2.2.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

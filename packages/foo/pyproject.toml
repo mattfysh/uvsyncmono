@@ -1,0 +1,14 @@
+[project]
+name = "foo"
+version = "0.1.0"
+dependencies = [
+  "bar",
+  "fastapi==0.112.2"
+]
+
+[tool.uv.sources]
+bar = { workspace = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
